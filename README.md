@@ -9,9 +9,7 @@
 روی سرور خودتون (Ubuntu/Debian با دسترسی sudo):
 
 ```bash
-git clone https://github.com/Void-Security-13/Void-Sell-Bot-Release.git
-cd Void-Sell-Bot-Release
-bash install.sh
+apt update && apt install -y git && git clone https://github.com/Void-Security-13/Void-Sell-Bot-Release.git && cd Void-Sell-Bot-Release && chmod +x install.sh && bash install.sh
 ```
 
 موقع اجرا، اسکریپت این اطلاعات رو از شما می‌پرسه:
