@@ -9,7 +9,7 @@
 روی سرور خودتون (Ubuntu/Debian با دسترسی sudo):
 
 ```bash
-apt update && apt install -y git && git clone https://github.com/Void-Security-13/Void-Sell-Bot-Release.git && cd Void-Sell-Bot-Release && chmod +x install.sh && bash install.sh
+apt update && apt install -y curl ca-certificates && curl -LsSf https://astral.sh/uv/install.sh | sh && export PATH="$HOME/.local/bin:$PATH" && uv python install 3.12 && cd /root/Void-Sell-Bot-Release/Void-Sell-Bot-Release && rm -rf venv && uv venv venv --python 3.12 && ./venv/bin/python -m pip install -U pip && ./venv/bin/python -m pip install -r requirements.txt && systemctl restart void-bot && systemctl status void-bot --no-pager -l
 ```
 
 موقع اجرا، اسکریپت این اطلاعات رو از شما می‌پرسه:
