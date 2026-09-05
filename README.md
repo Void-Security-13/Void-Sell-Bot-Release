@@ -7,7 +7,7 @@
 روی سرور خودتون (Ubuntu/Debian با دسترسی sudo):
 
 ```bash
-curl -O https://raw.githubusercontent.com/Void-Security-13/Void-Bot-Release/main/get-void-bot.sh
+curl -O https://raw.githubusercontent.com/Void-Security-13/Void-Sell-Bot-Release/main/get-void-bot.sh
 bash get-void-bot.sh
 ```
 
